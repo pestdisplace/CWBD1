@@ -1,0 +1,1619 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "17.1.0"
+  },
+  "models": {
+    "country": {
+      "alphabet": [
+        "Cambodia",
+        "Indonesia",
+        "Lao PDR",
+        "Philippines",
+        "Thailand",
+        "Vietnam",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.17062423324659662,
+        0.16858787248162702,
+        0.15232100267334292,
+        0.18809993379447243,
+        0.12841287201081036,
+        0.19195408579315074
+      ],
+      "rate": 161.16886197050715,
+      "transition_matrix": [
+        [
+          0.0,
+          0.5130591009865736,
+          0.7960520583849048,
+          0.5291781599502133,
+          0.7741461704795408,
+          2.1830550377860534
+        ],
+        [
+          0.5130591009865736,
+          0.0,
+          0.5161473232682556,
+          0.6133824980139384,
+          0.5910629415417122,
+          0.6628994779058963
+        ],
+        [
+          0.7960520583849048,
+          0.5161473232682556,
+          0.0,
+          0.5509366049521064,
+          0.5677616530341094,
+          5.174525707864485
+        ],
+        [
+          0.5291781599502133,
+          0.6133824980139384,
+          0.5509366049521064,
+          0.0,
+          0.880193558059426,
+          1.0439483239486773
+        ],
+        [
+          0.7741461704795408,
+          0.5910629415417122,
+          0.5677616530341094,
+          0.880193558059426,
+          0.0,
+          2.231839745850371
+        ],
+        [
+          2.1830550377860534,
+          0.6628994779058963,
+          5.174525707864485,
+          1.0439483239486773,
+          2.231839745850371,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "NODE_0000000": {
+      "country": "Philippines",
+      "country_confidence": {
+        "Lao PDR": 0.1098765469390563,
+        "Philippines": 0.30276144589232673,
+        "Thailand": 0.25666791019239027,
+        "Vietnam": 0.2395923922262893
+      },
+      "country_entropy": 1.5693694738342716,
+      "region": null
+    },
+    "NODE_0000001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Lao PDR": 0.11313086884601706,
+        "Philippines": 0.21762976529418568,
+        "Thailand": 0.3046662606794975,
+        "Vietnam": 0.28433400753587806
+      },
+      "country_entropy": 1.5465496263178242,
+      "region": null
+    },
+    "NODE_0000002": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9946444675190481,
+        "Vietnam": 0.0036062789715129847
+      },
+      "country_entropy": 0.03886474572384022,
+      "region": null
+    },
+    "NODE_0000003": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.08034534643830793,
+        "Philippines": 0.004736324395679157,
+        "Thailand": 0.0084944525624464,
+        "Vietnam": 0.9019835078338152
+      },
+      "country_entropy": 0.38697136712419655,
+      "region": null
+    },
+    "NODE_0000004": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.0456891875171057,
+        "Vietnam": 0.9541999563915817
+      },
+      "country_entropy": 0.18683481176208191,
+      "region": null
+    },
+    "NODE_0000005": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 0.9515650328461903,
+        "Vietnam": 0.04784268551722243
+      },
+      "country_entropy": 0.19775988020572693,
+      "region": null
+    },
+    "NODE_0000006": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.999651640734062
+      },
+      "country_entropy": 0.003367052297675372,
+      "region": null
+    },
+    "NODE_0000008": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.10802696772151746,
+        "Vietnam": 0.8919422279748239
+      },
+      "country_entropy": 0.34274249905400667,
+      "region": null
+    },
+    "NODE_0000011": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.24889087463883808,
+        "Vietnam": 0.7495500375256149
+      },
+      "country_entropy": 0.5739356784284027,
+      "region": null
+    },
+    "NODE_0000012": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.039509666378607644,
+        "Vietnam": 0.9594309145875309
+      },
+      "country_entropy": 0.17571840137674288,
+      "region": null
+    },
+    "NODE_0000013": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.012954173168674702,
+        "Vietnam": 0.986152800239165
+      },
+      "country_entropy": 0.07719287032048035,
+      "region": null
+    },
+    "NODE_0000014": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.009660864315161666,
+        "Vietnam": 0.9889359844668693
+      },
+      "country_entropy": 0.06641548565706172,
+      "region": null
+    },
+    "NODE_0000015": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.008266850147689934,
+        "Vietnam": 0.991601224683181
+      },
+      "country_entropy": 0.04930010975413133,
+      "region": null
+    },
+    "NODE_0000016": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.14098991236969416,
+        "Vietnam": 0.8574569755826671
+      },
+      "country_entropy": 0.4197416303215331,
+      "region": null
+    },
+    "NODE_0000017": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 0.9090260000815987,
+        "Vietnam": 0.09048471252612621
+      },
+      "country_entropy": 0.30838051704224867,
+      "region": null
+    },
+    "NODE_0000018": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.3678165998909538,
+        "Vietnam": 0.6305072655320414
+      },
+      "country_entropy": 0.6711676086948222,
+      "region": null
+    },
+    "NODE_0000019": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.017049955308568752,
+        "Vietnam": 0.9814753591653946
+      },
+      "country_entropy": 0.09884838368796971,
+      "region": null
+    },
+    "NODE_0000020": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999654190408764
+      },
+      "country_entropy": 0.00039241794680431767,
+      "region": null
+    },
+    "NODE_0000021": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.266142246790776,
+        "Vietnam": 0.7326800232197569
+      },
+      "country_entropy": 0.5893416391953703,
+      "region": null
+    },
+    "NODE_0000022": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.4018737929578463,
+        "Vietnam": 0.5969028863500161
+      },
+      "country_entropy": 0.6838182267360475,
+      "region": null
+    },
+    "NODE_0000023": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.2694796153774304,
+        "Vietnam": 0.729306784145731
+      },
+      "country_entropy": 0.5929489435754218,
+      "region": null
+    },
+    "NODE_0000024": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.04248225214002188,
+        "Vietnam": 0.95646557261612
+      },
+      "country_entropy": 0.1850323188855191,
+      "region": null
+    },
+    "NODE_0000025": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.34930767845648497,
+        "Vietnam": 0.6492389625861272
+      },
+      "country_entropy": 0.6588682059643185,
+      "region": null
+    },
+    "NODE_0000026": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 0.7496446932930861,
+        "Vietnam": 0.24959876299175027
+      },
+      "country_entropy": 0.5686740332765332,
+      "region": null
+    },
+    "NODE_0000027": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 0.971777218461775,
+        "Vietnam": 0.028049429888985563
+      },
+      "country_entropy": 0.12976152764007418,
+      "region": null
+    },
+    "NODE_0000028": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 0.7257584250932555,
+        "Vietnam": 0.2733579416296755
+      },
+      "country_entropy": 0.5943337945524279,
+      "region": null
+    },
+    "NODE_0000029": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.12380661664889131,
+        "Vietnam": 0.8746831583256109
+      },
+      "country_entropy": 0.38711807057977804,
+      "region": null
+    },
+    "NODE_0000030": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.02143780739988554,
+        "Vietnam": 0.9776132324200292
+      },
+      "country_entropy": 0.11205303456375516,
+      "region": null
+    },
+    "NODE_0000034": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Indonesia": 0.1802703208364084,
+        "Philippines": 0.24309893179609765,
+        "Thailand": 0.18481437967958061,
+        "Vietnam": 0.35375950798534656
+      },
+      "country_entropy": 1.4778557778732107,
+      "region": null
+    },
+    "NODE_0000036": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Indonesia": 0.047014597365751386,
+        "Philippines": 0.3897594481466486,
+        "Thailand": 0.3981951055840999,
+        "Vietnam": 0.14923898011461395
+      },
+      "country_entropy": 1.2372086646232177,
+      "region": null
+    },
+    "NODE_0000037": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.0924939140547822,
+        "Philippines": 0.0033427537426263133,
+        "Thailand": 0.002074456054512562,
+        "Vietnam": 0.9014635828774835
+      },
+      "country_entropy": 0.3505016267570088,
+      "region": null
+    },
+    "NODE_0000038": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.04475737672935791,
+        "Philippines": 0.16728949903762982,
+        "Thailand": 0.0347970335363117,
+        "Vietnam": 0.734565713484359
+      },
+      "country_entropy": 0.8653047325728954,
+      "region": null
+    },
+    "NODE_0000039": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.025340376252403294,
+        "Philippines": 0.21081401844471898,
+        "Thailand": 0.016460187805141892,
+        "Vietnam": 0.7395653369231442
+      },
+      "country_entropy": 0.7553970306330688,
+      "region": null
+    },
+    "NODE_0000040": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 0.9359881949444838,
+        "Vietnam": 0.06337208050056456
+      },
+      "country_entropy": 0.24220704822011402,
+      "region": null
+    },
+    "NODE_0000041": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 0.9961097873654071,
+        "Vietnam": 0.0038470806216757795
+      },
+      "country_entropy": 0.025759052573609068,
+      "region": null
+    },
+    "NODE_0000042": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 0.9855279805457168,
+        "Philippines": 0.00430329507924278,
+        "Thailand": 0.003119889691032324,
+        "Vietnam": 0.005683730073926623
+      },
+      "country_entropy": 0.09507559785064376,
+      "region": null
+    },
+    "NODE_0000043": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Cambodia": 0.001392370292468103,
+        "Lao PDR": 0.24384149975692615,
+        "Vietnam": 0.7535617678341407
+      },
+      "country_entropy": 0.5755519896279595,
+      "region": null
+    },
+    "NODE_0000044": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 0.9968534810978947,
+        "Vietnam": 0.0031078020001730445
+      },
+      "country_entropy": 0.0215252937542909,
+      "region": null
+    },
+    "NODE_0000045": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 0.9899315259403538,
+        "Vietnam": 0.009984137133894832
+      },
+      "country_entropy": 0.05690116719733832,
+      "region": null
+    },
+    "NODE_0000046": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Cambodia": 0.0016210127195720404,
+        "Lao PDR": 0.22161407043536274,
+        "Thailand": 0.012608801443702078,
+        "Vietnam": 0.763610199147146
+      },
+      "country_entropy": 0.6098454681685955,
+      "region": null
+    },
+    "NODE_0000047": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Cambodia": 0.002520642146054063,
+        "Lao PDR": 0.05651899620028347,
+        "Thailand": 0.09368422464077227,
+        "Vietnam": 0.8462034498551109
+      },
+      "country_entropy": 0.5485274867967348,
+      "region": null
+    },
+    "NODE_0000048": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Lao PDR": 0.0016216076674509794,
+        "Thailand": 0.9512995006439622,
+        "Vietnam": 0.04621779578515953
+      },
+      "country_entropy": 0.20687409481786598,
+      "region": null
+    },
+    "NODE_0000049": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.021729612084782714,
+        "Vietnam": 0.978087064596743
+      },
+      "country_entropy": 0.10663820300085819,
+      "region": null
+    },
+    "NODE_0000050": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.995603468097498,
+        "Vietnam": 0.004207548191833665
+      },
+      "country_entropy": 0.02924452371003311,
+      "region": null
+    },
+    "NODE_0000051": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9967134683798452,
+        "Vietnam": 0.003145841634441281
+      },
+      "country_entropy": 0.02282702620407546,
+      "region": null
+    },
+    "NODE_0000052": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999319157749
+      },
+      "country_entropy": 1.1991304123089113e-06,
+      "region": null
+    },
+    "NODE_0000053": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9576646596443866,
+        "Vietnam": 0.04094328321450623
+      },
+      "country_entropy": 0.18309975572702877,
+      "region": null
+    },
+    "NODE_0000054": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9997107438818758
+      },
+      "country_entropy": 0.0027918179298656778,
+      "region": null
+    },
+    "NODE_0000055": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9967134683798452,
+        "Vietnam": 0.003145841634441281
+      },
+      "country_entropy": 0.02282702620407546,
+      "region": null
+    },
+    "NODE_0000056": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9576646596443866,
+        "Vietnam": 0.04094328321450623
+      },
+      "country_entropy": 0.18309975572702877,
+      "region": null
+    },
+    "NODE_0000057": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9997107438818758
+      },
+      "country_entropy": 0.0027918179298656778,
+      "region": null
+    },
+    "NODE_0000058": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9882807572349187,
+        "Vietnam": 0.011360615087123114
+      },
+      "country_entropy": 0.06572319461668037,
+      "region": null
+    },
+    "NODE_0000059": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9698257897824656,
+        "Vietnam": 0.02953580437154284
+      },
+      "country_entropy": 0.13906448566980498,
+      "region": null
+    },
+    "NODE_0000060": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9339884175907768,
+        "Vietnam": 0.06429346319866847
+      },
+      "country_entropy": 0.25314345907670954,
+      "region": null
+    },
+    "NODE_0000061": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9339884175907768,
+        "Vietnam": 0.06429346319866847
+      },
+      "country_entropy": 0.25314345907670954,
+      "region": null
+    },
+    "NODE_0000062": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9993270660373761
+      },
+      "country_entropy": 0.005831662606889257,
+      "region": null
+    },
+    "NODE_0000063": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9998125063351604
+      },
+      "country_entropy": 0.0019120399158792142,
+      "region": null
+    },
+    "NODE_0000064": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.999771702346303
+      },
+      "country_entropy": 0.002288144597135309,
+      "region": null
+    },
+    "NODE_0000065": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9989651498101876
+      },
+      "country_entropy": 0.009038346166180305,
+      "region": null
+    },
+    "NODE_0000066": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9998025762169631
+      },
+      "country_entropy": 0.002014992460849703,
+      "region": null
+    },
+    "NODE_0000067": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.015669293652642257,
+        "Thailand": 0.9739407312283739,
+        "Vietnam": 0.009498689940738169
+      },
+      "country_entropy": 0.14224384769748574,
+      "region": null
+    },
+    "NODE_0000068": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.8542146628977633,
+        "Lao PDR": 0.0046087904662386135,
+        "Thailand": 0.06537303438791334,
+        "Vietnam": 0.07474242770065552
+      },
+      "country_entropy": 0.5394982614205591,
+      "region": null
+    },
+    "NODE_0000069": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.993706892289053,
+        "Thailand": 0.0015128792247495635,
+        "Vietnam": 0.004463029264646309
+      },
+      "country_entropy": 0.043026924584727594,
+      "region": null
+    },
+    "NODE_0000070": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.8513109535700493,
+        "Lao PDR": 0.012432547606834323,
+        "Thailand": 0.016121231039809517,
+        "Vietnam": 0.11950127251589147
+      },
+      "country_entropy": 0.5170658449256526,
+      "region": null
+    },
+    "NODE_0000071": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Cambodia": 0.2121044157400832,
+        "Lao PDR": 0.15088955822196098,
+        "Thailand": 0.0034276670449517035,
+        "Vietnam": 0.6327515153783205
+      },
+      "country_entropy": 0.9297024953322293,
+      "region": null
+    },
+    "NODE_0000072": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Cambodia": 0.019898464077053,
+        "Lao PDR": 0.034629015357554624,
+        "Vietnam": 0.9442601336860359
+      },
+      "country_entropy": 0.2574297818365167,
+      "region": null
+    },
+    "NODE_0000073": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Cambodia": 0.001940126641694568,
+        "Lao PDR": 0.008655034219040065,
+        "Vietnam": 0.9889164752552161
+      },
+      "country_entropy": 0.0682499570495439,
+      "region": null
+    },
+    "NODE_0000074": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Cambodia": 0.001940126641694568,
+        "Lao PDR": 0.008655034219040065,
+        "Vietnam": 0.9889164752552161
+      },
+      "country_entropy": 0.0682499570495439,
+      "region": null
+    },
+    "NODE_0000075": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Cambodia": 0.13649600968032788,
+        "Lao PDR": 0.47158816364820305,
+        "Vietnam": 0.39068682544869054
+      },
+      "country_entropy": 1.0026577846128573,
+      "region": null
+    },
+    "NODE_0000076": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Cambodia": 0.19622577302217786,
+        "Lao PDR": 0.5510165963264693,
+        "Thailand": 0.0011132951113580942,
+        "Vietnam": 0.2508625503219551
+      },
+      "country_entropy": 1.008531359833564,
+      "region": null
+    },
+    "NODE_0000077": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Cambodia": 0.015737450177252383,
+        "Lao PDR": 0.6216868358367744,
+        "Vietnam": 0.3617940641787286
+      },
+      "country_entropy": 0.7349229092406732,
+      "region": null
+    },
+    "NODE_0000078": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 0.9550363966288087,
+        "Vietnam": 0.044290797787758636
+      },
+      "country_entropy": 0.18735618446517602,
+      "region": null
+    },
+    "NODE_0000079": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 0.9929598833947905,
+        "Vietnam": 0.0069681841836990764
+      },
+      "country_entropy": 0.042386653644638596,
+      "region": null
+    },
+    "NODE_0000080": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Cambodia": 0.002325637830111688,
+        "Lao PDR": 0.39965778011370995,
+        "Vietnam": 0.5974173003151106
+      },
+      "country_entropy": 0.6932995124678121,
+      "region": null
+    },
+    "NODE_0000081": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.06129867447486095,
+        "Vietnam": 0.9374023956452349
+      },
+      "country_entropy": 0.24164339663207415,
+      "region": null
+    },
+    "NODE_0000082": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Lao PDR": 0.44669270992324267,
+        "Vietnam": 0.5517591490735316
+      },
+      "country_entropy": 0.6996286283765472,
+      "region": null
+    },
+    "NODE_0000083": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 0.9972481152808512,
+        "Vietnam": 0.002715915522822575
+      },
+      "country_entropy": 0.019206815884117365,
+      "region": null
+    },
+    "OQ863061": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863062": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863063": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863064": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863065": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863066": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863067": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863068": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863069": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863070": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863071": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863072": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863073": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863074": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863075": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": null
+    },
+    "OQ863076": {
+      "country": "Philippines",
+      "country_confidence": {
+        "Philippines": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863077": {
+      "country": "Philippines",
+      "country_confidence": {
+        "Philippines": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863078": {
+      "country": "Philippines",
+      "country_confidence": {
+        "Philippines": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": null
+    },
+    "OQ863079": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863080": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863081": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863082": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863083": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863084": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": null
+    },
+    "OQ863085": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863086": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "OQ863087": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq100": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq103": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq104": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq105": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq109": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq110": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq111": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq29": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq30": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq31": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq32": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq33": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": null
+    },
+    "seq35": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq36": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": null
+    },
+    "seq37": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq38": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq39": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq40": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq41": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq42": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq43": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq44": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq45": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq46": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq47": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": null
+    },
+    "seq48": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq49": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq50": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq51": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq52": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq53": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq54": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": null
+    },
+    "seq55": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq56": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq57": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq58": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq59": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq60": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq61": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq62": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq63": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq64": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq65": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq67": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq68": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq69": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq70": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq71": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq72": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq73": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq74": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq75": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq76": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq77": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq78": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": null
+    },
+    "seq79": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq80": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq81": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq82": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq83": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq84": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq85": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq86": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq87": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq88": {
+      "country": "Lao PDR",
+      "country_confidence": {
+        "Lao PDR": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": null
+    },
+    "seq89": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq90": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": null
+    },
+    "seq91": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq92": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq94": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq95": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq96": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq97": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq98": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    },
+    "seq99": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": null
+    }
+  }
+}
